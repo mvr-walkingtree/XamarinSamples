@@ -1,0 +1,28 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  <attr path="/api/package[@name='com.digits.sdk.android']/interface[@name='AuthCallback']/method[@name='failure']/parameter[@name='p0']"
+       name="name">failureException</attr>
+  -->
+  
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/constructor[@name='GuillotineAnimation.GuillotineBuilder']/parameter[@name='p0']"
+        name="name">navigationLayoutObject</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/constructor[@name='GuillotineAnimation.GuillotineBuilder']/parameter[@name='p1']"
+        name="name">navigationHamburger</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/constructor[@name='GuillotineAnimation.GuillotineBuilder']/parameter[@name='p2']"
+        name="name">contentHamburger</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/method[@name='setClosedOnStart']/parameter[@name='p0']"
+        name="name">closedOnStart</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/method[@name='setDuration']/parameter[@name='p0']"
+        name="name">duration</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/method[@name='setStartDelay']/parameter[@name='p0']"
+        name="name">startDelay</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/method[@name='setActionBarViewForAnimation']/parameter[@name='p0']"
+        name="name">actionBarViewForAnimation</attr>
+  <attr path="/api/package[@name='com.yalantis.guillotine.animation']/class[@name='GuillotineAnimation.GuillotineBuilder']/method[@name='setInterpolator']/parameter[@name='p0']"
+        name="name">interpolator</attr>
+</metadata>

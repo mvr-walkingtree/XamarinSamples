@@ -260,3 +260,6 @@ solution/config/json/routines-modified.json.bak
 solution/config/json/routines.json---
 solution/config/json/routines-modified.json
 src/ActiveNomad.Droid/Resources/Resource.Designer.cs
+obj/
+bin/
+packages/
