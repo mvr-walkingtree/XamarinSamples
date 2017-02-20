@@ -47,6 +47,13 @@ namespace GuillotineMenuTestApp
             .SetActionBarViewForAnimation(toolbar)
             .SetInterpolator(new BounceInterpolator())
             .Build();
+
+            var settingsButton = navigationLayout.FindViewById(Resource.Id.settings_group);
+
+            settingsButton.Click += (sender, e) => {
+                Toast.MakeText(this, "You clicked Settings icon", ToastLength.Long);
+            };
+
         }
     }
 }
