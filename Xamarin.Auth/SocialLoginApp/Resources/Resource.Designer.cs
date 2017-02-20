@@ -1452,16 +1452,13 @@ namespace SocialLoginApp
 			public const int Icon = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int Logo = 2130837583;
-			
-			// aapt resource value: 0x7f020050
-			public const int microsoft = 2130837584;
-			
-			// aapt resource value: 0x7f020052
-			public const int notification_template_icon_bg = 2130837586;
+			public const int microsoft = 2130837583;
 			
 			// aapt resource value: 0x7f020051
-			public const int twitter = 2130837585;
+			public const int notification_template_icon_bg = 2130837585;
+			
+			// aapt resource value: 0x7f020050
+			public const int twitter = 2130837584;
 			
 			static Drawable()
 			{

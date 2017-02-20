@@ -21,27 +21,32 @@
         android:id="@+id/buttonPanel"
         android:layout_width="match_parent"
         android:layout_centerVertical="true"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:weightSum="4">
         <Button
             android:id="@+id/GmailButton"
             android:background="@drawable/gmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp" />
         <Button
             android:id="@+id/MicrosoftButton"
             android:background="@drawable/microsoft"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp" />
         <Button
             android:id="@+id/FbButton"
             android:background="@drawable/facebook"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp" />
         <Button
             android:id="@+id/TwitterButton"
             android:background="@drawable/twitter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp" />
     </LinearLayout>
     <Button
         android:id="@+id/LogoutButton"
