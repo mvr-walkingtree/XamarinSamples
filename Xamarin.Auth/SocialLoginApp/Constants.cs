@@ -1,6 +1,6 @@
 namespace SocialLoginApp
 {
-    internal class Constants
+    public class Constants
     {
         //** Application strings **//
         public const string WAIT = "Please wait.";
