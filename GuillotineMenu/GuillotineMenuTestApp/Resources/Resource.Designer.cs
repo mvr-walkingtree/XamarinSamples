@@ -1470,8 +1470,11 @@ namespace GuillotineMenuTestApp
 			// aapt resource value: 0x7f02004f
 			public const int icon = 2130837583;
 			
+			// aapt resource value: 0x7f020051
+			public const int notification_template_icon_bg = 2130837585;
+			
 			// aapt resource value: 0x7f020050
-			public const int notification_template_icon_bg = 2130837584;
+			public const int rate = 2130837584;
 			
 			static Drawable()
 			{
@@ -1666,6 +1669,9 @@ namespace GuillotineMenuTestApp
 			// aapt resource value: 0x7f0b003b
 			public const int radio = 2131427387;
 			
+			// aapt resource value: 0x7f0b0054
+			public const int rateUs = 2131427412;
+			
 			// aapt resource value: 0x7f0b0055
 			public const int root = 2131427413;
 			
@@ -1713,9 +1719,6 @@ namespace GuillotineMenuTestApp
 			
 			// aapt resource value: 0x7f0b004f
 			public const int select_dialog_listview = 2131427407;
-			
-			// aapt resource value: 0x7f0b0054
-			public const int settings_group = 2131427412;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int shortcut = 2131427386;
@@ -2030,7 +2033,7 @@ namespace GuillotineMenuTestApp
 			public const int profile = 2131034133;
 			
 			// aapt resource value: 0x7f050018
-			public const int settings = 2131034136;
+			public const int rateus = 2131034136;
 			
 			// aapt resource value: 0x7f050013
 			public const int status_bar_notification_info_overflow = 2131034131;

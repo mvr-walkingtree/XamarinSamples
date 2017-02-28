@@ -48,13 +48,13 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/guillotine_divider_height" />
     <LinearLayout
-        android:id="@+id/settings_group"
+        android:id="@+id/rateUs"
         style="@style/LinearLayout.GuillotineItem">
         <ImageView
             style="@style/ImageView.GuillotineItem"
-            android:src="@drawable/ic_settings" />
+            android:src="@drawable/rate" />
         <android.support.v7.widget.AppCompatTextView
             style="@style/TextView.GuillotineItem"
-            android:text="@string/settings" />
+            android:text="@string/rateus" />
     </LinearLayout>
 </LinearLayout>

@@ -88,6 +88,7 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\rate.png" />
     <AndroidResource Include="Resources\layout\guillotine.axml">
       <SubType>Designer</SubType>
     </AndroidResource>

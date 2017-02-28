@@ -48,12 +48,12 @@ namespace GuillotineMenuTestApp
             .SetInterpolator(new BounceInterpolator())
             .Build();
 
-            var settingsButton = navigationLayout.FindViewById(Resource.Id.settings_group);
+            var rateUsButton = navigationLayout.FindViewById(Resource.Id.rateUs);
 
-            settingsButton.Click += (sender, e) => {
-                Toast.MakeText(this, "You clicked Settings icon", ToastLength.Long);
+            rateUsButton.Click += (sender, e) => {
+                Toast.MakeText(this, "You clicked rate us icon", ToastLength.Long).Show();
             };
-
+            
         }
     }
 }
